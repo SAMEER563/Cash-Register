@@ -1,0 +1,73 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: rgb(196, 162, 123);
+    border-radius: 15px;
+}
+
+.heading {
+    color: blue;
+    margin: 1rem;
+    text-align: center;
+    
+}
+
+.description {
+    color: rgb(134, 245, 22);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bill-amount {
+    background-color: yellow;
+    color: red;
+    font-weight: 500;
+    font-size: 3vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cash-given {
+    background-color: yellow;
+    color: red;
+    font-weight: 500;
+    font-size: 3vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.no-of-notes {
+    background-color: rgb(252, 252, 247);
+    color: rgb(25, 25, 26);
+    font-weight: 500;
+    font-size: 3vh;
+    border-radius: 5px;
+}
+
+#check-button {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+}
+
+#check-button:hover{
+    background-color: rgb(44, 13, 243);
+}
+#bill-amount {
+    color: blue;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
