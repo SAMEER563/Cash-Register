@@ -2,10 +2,11 @@
 
 .container {
     display: flex;
-    flex-direction: column;
-    width: 50vw;
+    flex-direction:column;
+    width: 50%;
     background-color: rgb(196, 162, 123);
-    border-radius: 15px;
+    border-radius: 5px;
+    
 }
 
 .heading {
@@ -42,7 +43,7 @@
 
 .no-of-notes {
     background-color: rgb(252, 252, 247);
-    color: rgb(25, 25, 26);
+    color: rgb(19, 19, 19);
     font-weight: 500;
     font-size: 3vh;
     border-radius: 5px;
@@ -62,9 +63,6 @@
 
 #check-button:hover{
     background-color: rgb(44, 13, 243);
-}
-#bill-amount {
-    color: blue;
 }
 
 .error-message {
